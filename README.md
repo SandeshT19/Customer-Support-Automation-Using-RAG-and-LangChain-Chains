@@ -1,4 +1,6 @@
 Introduction:
+
+
 This script is designed to process and analyze product reviews using a combination of natural language processing (NLP) techniques, document retrieval, and sentiment analysis. It leverages the power of embeddings, language models, and vector stores to efficiently process large sets of review data, retrieve relevant information based on specific queries, generate context-aware responses, and classify sentiment to improve customer interactions.
 The core functionality involves loading product reviews from a CSV file, storing them in a vector store for efficient similarity search, and then using a language model to generate responses based on these reviews. It also includes feedback classification (positive, negative, neutral) to generate appropriate responses, making it a versatile tool for various use cases in customer service, feedback analysis, and product review summarization.
 Use Cases:
@@ -11,7 +13,8 @@ Example: The script could classify customer feedback from a product review platf
 3.Review Summarization for Insights:
 Scenario: A business wants to quickly understand the general themes of a large number of reviews. The script can summarize customer feedback by retrieving the most relevant documents, combining them, and using a language model to provide a synthesized response.
 Example: A retailer might use the script to extract and summarize key insights from reviews, such as the top-rated features or common complaints.
-4.Product Improvement Analysis:
+
+Product Improvement Analysis:
 Scenario: Companies can use the feedback classified by the script to detect recurring issues or praise for a specific feature in their products. This can guide product development teams in making informed decisions for updates or improvements.
 Example: The product team might want to know why customers gave low ratings. The script helps identify negative reviews and generates responses that directly address the issues, while also summarizing the reasons behind customer dissatisfaction.
 Code Overview and Steps:
@@ -24,6 +27,8 @@ Generates a response to a query using a language model.
 Classifies feedback and handles sentiment.
 Integrates this all into a pipeline to generate and process feedback.
 
+
+
 Output for the Code :
 Generated Response from RAG :
 Answer: Based on the provided documents, the review with the lowest rating (1.0 out of 5 stars) is titled 'It's bad' and was written by a reviewer named 'Amrit'.
@@ -34,5 +39,7 @@ I'm sorry to hear that you were disappointed with our product. We value your fee
 Regarding your concerns about the design and functionality issues, we would like to assure you that we take these matters seriously. Our team is currently working on addressing these specific issues in future versions or updates of our product.
 Furthermore, we understand the importance of maintaining high standards in our quality control processes. We are committed to implementing improvements in these areas to ensure that our customers receive only the best possible products from us.
 Once again, we sincerely apologize for any inconvenience or disappointment you may have experienced with our product. We greatly appreciate your constructive feedback and are committed to using it to make meaningful improvements in our offerings for the benefit of all our valued customers.
+
+
 Summary:
 By using the script, we can build initial model to automate the customer review and response system. with Agentic tools we can further enhance it and make it more automated and effective tool for the organizations.
